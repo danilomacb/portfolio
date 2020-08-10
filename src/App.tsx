@@ -1,9 +1,16 @@
 import React from "react";
 
 import "./App.css";
+import Main from "./components/Main";
+import SideBar from "./components/SideBar";
 
 function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <>
+      <SideBar />
+      <Main />
+    </>
+  );
 }
 
 export default App;
