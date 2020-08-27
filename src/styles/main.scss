@@ -1,0 +1,12 @@
+@import "./colors.scss";
+
+main {
+  display: block;
+  max-width: 100%;
+  background-color: $black2;
+  margin-left: 300px;
+}
+
+main h1 {
+  text-align: center;
+}

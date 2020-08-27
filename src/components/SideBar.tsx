@@ -1,5 +1,7 @@
 import React from "react";
 
+import "../styles/sidebar.scss";
+
 function SideBar() {
   return (
     <nav>
@@ -8,7 +10,7 @@ function SideBar() {
         <li>item 2</li>
       </ul>
     </nav>
-  )
+  );
 }
 
 export default SideBar;
