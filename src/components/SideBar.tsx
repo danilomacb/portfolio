@@ -15,7 +15,7 @@ function SideBar() {
       </ul>
       <ul>
         {projects.map(project => (
-          <li>{project.name}</li>
+          <li key={project.name}>{project.name}</li>
         ))}
       </ul>
     </nav>
