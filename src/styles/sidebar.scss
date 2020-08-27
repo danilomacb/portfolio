@@ -7,11 +7,11 @@ nav {
   width: 300px;
   border-right: 1px solid $green;
   background-color: $black2;
+  overflow: auto;
 }
 
 nav ul {
   margin-top: 10px;
-  overflow: auto;
 }
 
 nav img {
