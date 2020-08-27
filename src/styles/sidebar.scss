@@ -48,3 +48,18 @@ nav img {
     }
   }
 }
+
+#projects {
+  padding: 0 10px 10px 10px;
+  li {
+    background-color: $black3;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: $black1;
+      cursor: pointer;
+    }
+  }
+}

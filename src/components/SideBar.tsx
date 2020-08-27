@@ -37,7 +37,7 @@ function SideBar() {
         </a>
       </div>
 
-      <ul>
+      <ul id="projects">
         {projects.map((project) => (
           <li key={project.name}>{project.name}</li>
         ))}
