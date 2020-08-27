@@ -1,6 +1,7 @@
 import React from "react";
 
 import "../styles/sidebar.scss";
+import projects from "../projects.json";
 
 function SideBar() {
   return (
@@ -13,8 +14,9 @@ function SideBar() {
         <li>Usuário de distros Linux baseadas em Ubuntu</li>
       </ul>
       <ul>
-        <li>item 1</li>
-        <li>item 2</li>
+        {projects.map(project => (
+          <li>{project.name}</li>
+        ))}
       </ul>
     </nav>
   );
