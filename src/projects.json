@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Insta Anonymous",
+    "description": "Uma extensão para o Chrome que esconde as telas e mensagem de login.",
+    "repository": "https://github.com/danilomacb/insta-anonymous"
+  },
+  {
+    "name": "4noobs Web",
+    "description": "Uma página web feita com React como objetivo exibir todos os 4noobs em apenas um lugar e com um dark theme padrão.",
+    "link": "https://4noobs.netlify.app/",
+    "repository": "https://github.com/danilomacb/4noobs-web"
+  }
+]
