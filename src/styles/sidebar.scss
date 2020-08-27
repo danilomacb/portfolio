@@ -11,16 +11,37 @@ nav {
 
 nav ul {
   margin-top: 10px;
+  overflow: auto;
 }
 
 nav img {
   height: 100px;
   width: 100px;
   border-radius: 50px;
-  margin-top: 20px;
+}
+
+#profile,
+#socials {
+  border-bottom: 1px solid $green;
+  padding-bottom: 20px;
+  margin: 20px;
 }
 
 #profileDescription {
   text-align: left;
   margin-left: 40px;
+}
+
+#socials a {
+  margin-left: 10px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &:hover {
+    svg path {
+      color: $green;
+    }
+  }
 }
