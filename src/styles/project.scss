@@ -1,0 +1,23 @@
+@import "./colors.scss";
+
+.project {
+  border: 1px solid $green;
+  border-radius: 20px;
+  margin: 0px 40px 40px 40px;
+  padding: 10px 0 10px 0;
+  background-color: $black2;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.project img {
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.project p {
+  text-align: left;
+  margin: 5px 20px 5px 20px;
+}
