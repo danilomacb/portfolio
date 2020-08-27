@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./App.css";
+import "./styles/index.scss";
 import Main from "./components/Main";
 import SideBar from "./components/SideBar";
 
