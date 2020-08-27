@@ -29,7 +29,10 @@ nav img {
 
 #profileDescription {
   text-align: left;
-  margin-left: 40px;
+
+  li {
+    margin-left: 40px;
+  }
 }
 
 #socials a {
