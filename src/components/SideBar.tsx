@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin, faFacebook, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faTimes, faBars } from "@fortawesome/free-solid-svg-icons";
@@ -19,8 +19,14 @@ function SideBar() {
   function scrollPage(i: number) {
     const projectElements = document.getElementsByClassName("project");
 
+    setMenuOpened(false);
+
     projectElements[i].scrollIntoView();
   }
+
+  useEffect(() => {
+    menuOpened ? (nav.style.display = "block") : (nav.style.display = "none");
+  }, [menuOpened]);
 
   return (
     <>
@@ -28,7 +34,7 @@ function SideBar() {
         {menuOpened ? <FontAwesomeIcon icon={faTimes} /> : <FontAwesomeIcon icon={faBars} />}
       </button>
 
-      <nav ref={(element) => (nav = element)} >
+      <nav ref={(element) => (nav = element)}>
         <div id="profile">
           <img src={`${process.env.PUBLIC_URL}/images/perfil.png`} alt="Perfil" />
           <h1>Danilo Macedo Bakun</h1>

@@ -10,6 +10,10 @@
   &:last-child {
     margin-bottom: 0;
   }
+
+  a {
+    word-break: break-all;
+  }
 }
 
 .project img {
