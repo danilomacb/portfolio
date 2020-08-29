@@ -8,20 +8,19 @@ nav {
   border-right: 1px solid $green;
   background-color: $black2;
   overflow: auto;
+
+  ul {
+    margin-top: 10px;
+  }
+
+  img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+  }
 }
 
-nav ul {
-  margin-top: 10px;
-}
-
-nav img {
-  height: 100px;
-  width: 100px;
-  border-radius: 50px;
-}
-
-#profile,
-#socials {
+#profile {
   border-bottom: 1px solid $green;
   padding-bottom: 20px;
   margin: 20px;
@@ -35,16 +34,22 @@ nav img {
   }
 }
 
-#socials a {
-  margin-left: 10px;
+#socials {
+  border-bottom: 1px solid $green;
+  padding-bottom: 20px;
+  margin: 20px;
 
-  &:first-child {
-    margin-left: 0;
-  }
+  a {
+    margin-left: 10px;
 
-  &:hover {
-    svg path {
-      color: $green;
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:hover {
+      svg path {
+        color: $green;
+      }
     }
   }
 }
@@ -76,7 +81,7 @@ nav img {
   border: none;
   outline: 0;
   opacity: 0.7;
-  background:$black1;
+  background: $black1;
   border: 1px solid $green;
 }
 
