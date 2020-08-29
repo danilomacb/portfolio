@@ -7,6 +7,12 @@ import "../styles/sidebar.scss";
 import projects from "../projects.json";
 
 function SideBar() {
+  function scrollPage(i: number) {
+    const projectElements = document.getElementsByClassName("project");
+
+    projectElements[i].scrollIntoView();
+  }
+
   return (
     <nav>
       <div id="profile">
@@ -38,8 +44,10 @@ function SideBar() {
       </div>
 
       <ul id="projects">
-        {projects.map((project) => (
-          <li key={project.name}>{project.name}</li>
+        {projects.map((project, i) => (
+          <li key={project.name} onClick={() => scrollPage(i)}>
+            {project.name}
+          </li>
         ))}
       </ul>
     </nav>
