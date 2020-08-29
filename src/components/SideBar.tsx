@@ -10,6 +10,7 @@ function SideBar() {
   const [menuOpened, setMenuOpened] = useState(false);
 
   let nav: any;
+  let menuButton: any;
 
   function showMenu() {
     nav.style.display === "block" ? (nav.style.display = "none") : (nav.style.display = "block");
@@ -19,18 +20,17 @@ function SideBar() {
   function scrollPage(i: number) {
     const projectElements = document.getElementsByClassName("project");
 
-    setMenuOpened(false);
+    if (getComputedStyle(menuButton, null).display === "block") {
+      nav.style.display = "none";
+      setMenuOpened(false);
+    }
 
     projectElements[i].scrollIntoView();
   }
 
-  useEffect(() => {
-    menuOpened ? (nav.style.display = "block") : (nav.style.display = "none");
-  }, [menuOpened]);
-
   return (
     <>
-      <button id="menu-button" onClick={showMenu}>
+      <button id="menu-button" onClick={showMenu} ref={(element) => (menuButton = element)}>
         {menuOpened ? <FontAwesomeIcon icon={faTimes} /> : <FontAwesomeIcon icon={faBars} />}
       </button>
 
