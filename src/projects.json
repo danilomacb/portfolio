@@ -47,7 +47,7 @@
     "categories": "Web Front-end e Back-end",
     "technologies": "JavaScript, Node, MongoDB e React",
     "description": "Uma plataforma com o objetivo deixar salvo filmes e séries que você ja viu ou quer ver.",
-    "link": "https://github.com/danilomacb/JaVi"
+    "repository": "https://github.com/danilomacb/JaVi"
   },
   {
     "name": "Simple CRUD TypeScript",
@@ -55,7 +55,7 @@
     "categories": "Web Front-end e Back-end",
     "technologies": "TypeScript, Node, React e MongoDB",
     "description": "Simple CRUD (Create, Read, Update, and Delete), é um projeto para ser usado de referência.",
-    "link": "https://github.com/danilomacb/simple-crud-ts"
+    "repository": "https://github.com/danilomacb/simple-crud-ts"
   },
   {
     "name": "Simple CRUD JavaScript",
@@ -63,7 +63,7 @@
     "categories": "Web Front-end e Back-end",
     "technologies": "JavaScript, Node, React e MongoDB",
     "description": "Simple CRUD (Create, Read, Update, and Delete), é um projeto para ser usado de referência.",
-    "link": "https://github.com/danilomacb/simple-crud-node-react-mongo"
+    "repository": "https://github.com/danilomacb/simple-crud-node-react-mongo"
   },
   {
     "name": "Caralivro",
@@ -71,6 +71,7 @@
     "categories": "Web Front-end",
     "technologies": "HTML, CSS e JavaScript",
     "description": "Um clone da página de login do Facebook.",
-    "link": "https://github.com/danilomacb/caralivro"
+    "link": "https://danilomacb.github.io/caralivro/",
+    "repository": "https://github.com/danilomacb/caralivro"
   }
 ]
