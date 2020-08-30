@@ -1,0 +1,21 @@
+@import "./colors.scss";
+
+#socials {
+  border-bottom: 1px solid $green;
+  padding-bottom: 20px;
+  margin: 20px;
+
+  a {
+    margin-left: 10px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:hover {
+      svg path {
+        color: $green;
+      }
+    }
+  }
+}
