@@ -9,7 +9,7 @@
   },
   {
     "name": "4noobs Web",
-    "img": "/images/perfil.png",
+    "img": "/images/projects/4noobsWeb.gif",
     "categories": "Web Front-end",
     "technologies": "React",
     "description": "Uma página web feita com React como objetivo exibir todos os 4noobs em apenas um lugar e com um dark theme padrão.",
