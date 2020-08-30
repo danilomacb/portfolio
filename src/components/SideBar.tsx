@@ -10,7 +10,7 @@ import Socials from "./Socials";
 function SideBar() {
   const [menuOpened, setMenuOpened] = useState(false);
 
-  const nav = document.getElementsByTagName("nav")[0]!;
+  let nav: HTMLElement;
 
   function showMenu() {
     nav.style.display === "block" ? (nav.style.display = "none") : (nav.style.display = "block");
@@ -34,7 +34,7 @@ function SideBar() {
         {menuOpened ? <FontAwesomeIcon icon={faTimes} /> : <FontAwesomeIcon icon={faBars} />}
       </button>
 
-      <nav>
+      <nav ref={(el) => (nav = el!)}>
         <Profile />
 
         <Socials />
