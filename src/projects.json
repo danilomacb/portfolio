@@ -18,7 +18,7 @@
   },
   {
     "name": "Comparando React com HTML",
-    "img": "/images/projects/comparando-react-com-html.png",
+    "img": "/images/projects/comparandoReactComHtml.png",
     "categories": "Artigo",
     "technologies": "HTML, CSS, JavaScript e React",
     "description": "Comparando o mesmo projeto em React e HTML, para explicar como funciona a componentização.",
