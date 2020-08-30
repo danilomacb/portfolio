@@ -16,7 +16,7 @@ function Project({ project }: { project: IProject }) {
   return (
     <div className="project">
       <h1>{project.name}</h1>
-      <img src={`${process.env.PUBLIC_URL}${project.img}`} />
+      <img src={`${process.env.PUBLIC_URL}${project.img}`} alt={project.name} />
       <p>
         <strong>Categorias: </strong>
         {project.categories}
