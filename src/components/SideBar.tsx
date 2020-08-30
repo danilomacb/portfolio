@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin, faFacebook, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faTimes, faBars } from "@fortawesome/free-solid-svg-icons";
@@ -9,8 +9,8 @@ import projects from "../projects.json";
 function SideBar() {
   const [menuOpened, setMenuOpened] = useState(false);
 
-  let nav: any;
-  let menuButton: any;
+  const nav: HTMLElement = document.getElementsByTagName("nav")[0]!;
+  const menuButton: HTMLElement  = document.getElementById("menu-button")!;
 
   function showMenu() {
     nav.style.display === "block" ? (nav.style.display = "none") : (nav.style.display = "block");
@@ -30,11 +30,11 @@ function SideBar() {
 
   return (
     <>
-      <button id="menu-button" onClick={showMenu} ref={(element) => (menuButton = element)}>
+      <button id="menu-button" onClick={showMenu}>
         {menuOpened ? <FontAwesomeIcon icon={faTimes} /> : <FontAwesomeIcon icon={faBars} />}
       </button>
 
-      <nav ref={(element) => (nav = element)}>
+      <nav>
         <div id="profile">
           <img src={`${process.env.PUBLIC_URL}/images/perfil.png`} alt="Perfil" />
           <h1>Danilo Macedo Bakun</h1>
