@@ -15,6 +15,11 @@
     max-width: 100%;
     max-height: 70vh;
     margin-top: 10px;
+
+    &:hover {
+      cursor: pointer;
+      opacity: 0.5;
+    }
   }
 
   p {
