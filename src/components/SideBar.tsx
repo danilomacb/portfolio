@@ -10,8 +10,7 @@ import Socials from "./Socials";
 function SideBar() {
   const [menuOpened, setMenuOpened] = useState(false);
 
-  const nav: HTMLElement = document.getElementsByTagName("nav")[0]!;
-  const menuButton: HTMLElement = document.getElementById("menu-button")!;
+  const nav = document.getElementsByTagName("nav")[0]!;
 
   function showMenu() {
     nav.style.display === "block" ? (nav.style.display = "none") : (nav.style.display = "block");
@@ -21,7 +20,7 @@ function SideBar() {
   function scrollPage(i: number) {
     const projectElements = document.getElementsByClassName("project");
 
-    if (getComputedStyle(menuButton, null).display === "block") {
+    if (getComputedStyle(document.getElementById("menu-button")!, null).display === "block") {
       nav.style.display = "none";
       setMenuOpened(false);
     }
