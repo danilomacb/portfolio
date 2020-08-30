@@ -4,6 +4,7 @@
     "img": "/images/projects/instaAnonymous.png",
     "categories": "Extensão",
     "technologies": "CSS e JavaScript",
+    "date": "16/08/2020",
     "description": "Uma extensão para o Chrome que esconde as telas e mensagem de login.",
     "repository": "https://github.com/danilomacb/insta-anonymous"
   },
@@ -12,6 +13,7 @@
     "img": "/images/projects/4noobsWeb.gif",
     "categories": "Web Front-end",
     "technologies": "React",
+    "date": "24/06/2020",
     "description": "Uma página web feita com React como objetivo exibir todos os 4noobs em apenas um lugar e com um dark theme padrão.",
     "link": "https://4noobs.netlify.app/",
     "repository": "https://github.com/danilomacb/4noobs-web"
@@ -21,39 +23,17 @@
     "img": "/images/projects/comparandoReactComHtml.png",
     "categories": "Artigo",
     "technologies": "HTML, CSS, JavaScript e React",
+    "date": "26/05/2020",
     "description": "Comparando o mesmo projeto em React e HTML, para explicar como funciona a componentização.",
     "link": "https://medium.com/@danilomacb/comparando-react-com-html-7eda91ee408a",
     "repository": "https://github.com/danilomacb/comparando-react-com-html"
-  },
-  {
-    "name": "Consumo de Memória RAM em Distros Ubuntu",
-    "img": "/images/projects/ubuntu.png",
-    "categories": "Artigo",
-    "technologies": "Linux",
-    "description": "Comparação de consumo de memória RAM em diferentes distros baseadas em Ubuntu.",
-    "link": "https://medium.com/@danilomacb/consumo-de-mem%C3%B3ria-ram-em-distros-ubuntu-a124549469b9"
-  },
-  {
-    "name": "Memebot",
-    "img": "/images/projects/memebot.gif",
-    "categories": "Bot, Web Front-end e Back-end",
-    "technologies": "JavaScript, Node, MongoDB e React",
-    "description": "É um bot para o Discord que te permite adicionar comandos customizados de forma simples, esses comandos podem conter texos, links, imagens e gifs. Dessa forma você pode deixar suas redes sociais salvas em um comando, adicionar mais emotes, adicionar gifs, links com vídeos e etc. E tudo isso de forma gratuita.",
-    "link": "https://memebot-oficial.netlify.app"
-  },
-  {
-    "name": "JaVi?!",
-    "img": "/images/projects/javi.gif",
-    "categories": "Web Front-end e Back-end",
-    "technologies": "JavaScript, Node, MongoDB e React",
-    "description": "Uma plataforma com o objetivo deixar salvo filmes e séries que você ja viu ou quer ver.",
-    "repository": "https://github.com/danilomacb/JaVi"
   },
   {
     "name": "Simple CRUD TypeScript",
     "img": "/images/projects/simpleCrudTS.gif",
     "categories": "Web Front-end e Back-end",
     "technologies": "TypeScript, Node, React e MongoDB",
+    "date": "11/05/2020",
     "description": "Simple CRUD (Create, Read, Update, and Delete), é um projeto para ser usado de referência.",
     "repository": "https://github.com/danilomacb/simple-crud-ts"
   },
@@ -62,14 +42,43 @@
     "img": "/images/projects/simpleCrudJS.gif",
     "categories": "Web Front-end e Back-end",
     "technologies": "JavaScript, Node, React e MongoDB",
+    "date": "09/05/2020",
     "description": "Simple CRUD (Create, Read, Update, and Delete), é um projeto para ser usado de referência.",
     "repository": "https://github.com/danilomacb/simple-crud-node-react-mongo"
+  },
+  {
+    "name": "Consumo de Memória RAM em Distros Ubuntu",
+    "img": "/images/projects/ubuntu.png",
+    "categories": "Artigo",
+    "technologies": "Linux",
+    "date": "27/04/2020",
+    "description": "Comparação de consumo de memória RAM em diferentes distros baseadas em Ubuntu.",
+    "link": "https://medium.com/@danilomacb/consumo-de-mem%C3%B3ria-ram-em-distros-ubuntu-a124549469b9"
+  },
+  {
+    "name": "Memebot",
+    "img": "/images/projects/memebot.gif",
+    "categories": "Bot, Web Front-end e Back-end",
+    "technologies": "JavaScript, Node, MongoDB e React",
+    "date": "15/12/2019",
+    "description": "É um bot para o Discord que te permite adicionar comandos customizados de forma simples, esses comandos podem conter texos, links, imagens e gifs. Dessa forma você pode deixar suas redes sociais salvas em um comando, adicionar mais emotes, adicionar gifs, links com vídeos e etc. E tudo isso de forma gratuita.",
+    "link": "https://memebot-oficial.netlify.app"
+  },
+  {
+    "name": "JaVi?!",
+    "img": "/images/projects/javi.gif",
+    "categories": "Web Front-end e Back-end",
+    "technologies": "JavaScript, Node, MongoDB e React",
+    "date": "22/10/2019",
+    "description": "Uma plataforma com o objetivo deixar salvo filmes e séries que você ja viu ou quer ver.",
+    "repository": "https://github.com/danilomacb/JaVi"
   },
   {
     "name": "Caralivro",
     "img": "/images/projects/caralivro.png",
     "categories": "Web Front-end",
     "technologies": "HTML, CSS e JavaScript",
+    "date": "07/03/2019",
     "description": "Um clone da página de login do Facebook.",
     "link": "https://danilomacb.github.io/caralivro/",
     "repository": "https://github.com/danilomacb/caralivro"

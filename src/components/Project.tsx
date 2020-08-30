@@ -8,6 +8,7 @@ interface IProject {
   img: string;
   categories: string;
   technologies: string;
+  date: string;
   description: string;
   link?: string;
   repository?: string;
@@ -39,6 +40,10 @@ function Project({ project }: { project: IProject }) {
         <p>
           <strong>Tecnologias: </strong>
           {project.technologies}
+        </p>
+        <p>
+          <strong>Data: </strong>
+          {project.date}
         </p>
         <p>
           <strong>Descrição</strong>: {project.description}
