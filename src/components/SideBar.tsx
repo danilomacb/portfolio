@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin, faFacebook, faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faTimes, faBars } from "@fortawesome/free-solid-svg-icons";
+import { faTimes, faBars } from "@fortawesome/free-solid-svg-icons";
 
 import "../styles/sidebar.scss";
 import projects from "../projects.json";
+import Socials from "./Socials";
 
 function SideBar() {
   const [menuOpened, setMenuOpened] = useState(false);
 
   const nav: HTMLElement = document.getElementsByTagName("nav")[0]!;
-  const menuButton: HTMLElement  = document.getElementById("menu-button")!;
+  const menuButton: HTMLElement = document.getElementById("menu-button")!;
 
   function showMenu() {
     nav.style.display === "block" ? (nav.style.display = "none") : (nav.style.display = "block");
@@ -45,23 +45,7 @@ function SideBar() {
           </ul>
         </div>
 
-        <div id="socials">
-          <a href="https://github.com/danilomacb">
-            <FontAwesomeIcon icon={faGithub} size="lg" />
-          </a>
-          <a href="https://www.linkedin.com/in/danilomacb">
-            <FontAwesomeIcon icon={faLinkedin} size="lg" />
-          </a>
-          <a href="https://www.facebook.com/danilomacb">
-            <FontAwesomeIcon icon={faFacebook} size="lg" />
-          </a>
-          <a href="https://twitter.com/danilomacb">
-            <FontAwesomeIcon icon={faTwitter} size="lg" />
-          </a>
-          <a href="mailto:danilo.macb@gmail.com">
-            <FontAwesomeIcon icon={faEnvelope} size="lg" />
-          </a>
-        </div>
+        <Socials />
 
         <ul id="projects">
           {projects.map((project, i) => (
