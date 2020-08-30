@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, Profiler } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes, faBars } from "@fortawesome/free-solid-svg-icons";
 
 import "../styles/sidebar.scss";
 import projects from "../projects.json";
+import Profile from "./Profile";
 import Socials from "./Socials";
 
 function SideBar() {
@@ -35,15 +36,7 @@ function SideBar() {
       </button>
 
       <nav>
-        <div id="profile">
-          <img src={`${process.env.PUBLIC_URL}/images/perfil.png`} alt="Perfil" />
-          <h1>Danilo Macedo Bakun</h1>
-          <ul id="profileDescription">
-            <li>Desenvolvedor FullStack JavaScript</li>
-            <li>Stack React + Node</li>
-            <li>Usuário de distros Linux baseadas em Ubuntu</li>
-          </ul>
-        </div>
+        <Profile />
 
         <Socials />
 
