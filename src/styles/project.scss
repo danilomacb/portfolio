@@ -29,6 +29,10 @@
 
   a {
     word-break: break-all;
+
+    &:hover {
+      color: $green;
+    }
   }
 
   h1 {
