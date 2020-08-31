@@ -30,7 +30,7 @@ function SideBar() {
 
   return (
     <>
-      <button id="menu-button" onClick={showMenu}>
+      <button id="menu-button" aria-label="menu button" onClick={showMenu}>
         {menuOpened ? <FontAwesomeIcon icon={faTimes} /> : <FontAwesomeIcon icon={faBars} />}
       </button>
 
