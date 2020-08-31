@@ -52,13 +52,17 @@ function Project({ project }: { project: IProject }) {
         {project.link ? (
           <p>
             <strong>Link: </strong>
-            <a href={project.link}>{project.link}</a>
+            <a href={project.link} target="_blank" rel="noopener noreferrer">
+              {project.link}
+            </a>
           </p>
         ) : null}
         {project.repository ? (
           <p>
             <strong>Repositório: </strong>
-            <a href={project.repository}>{project.repository}</a>
+            <a href={project.repository} target="_blank" rel="noopener noreferrer">
+              {project.repository}
+            </a>
           </p>
         ) : null}
         {project.credits ? (
