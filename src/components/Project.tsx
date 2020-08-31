@@ -12,6 +12,7 @@ interface IProject {
   description: string;
   link?: string;
   repository?: string;
+  credits?: string;
 }
 
 function Project({ project }: { project: IProject }) {
@@ -58,6 +59,12 @@ function Project({ project }: { project: IProject }) {
           <p>
             <strong>Repositório: </strong>
             <a href={project.repository}>{project.repository}</a>
+          </p>
+        ) : null}
+        {project.credits ? (
+          <p>
+            <strong>Créditos: </strong>
+            {project.credits}
           </p>
         ) : null}
       </div>
