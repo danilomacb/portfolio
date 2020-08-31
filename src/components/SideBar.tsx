@@ -39,6 +39,7 @@ function SideBar() {
 
         <Socials />
 
+        <h2>Meus Projetos</h2>
         <ul id="projects">
           {projects.map((project, i) => (
             <li key={project.name} onClick={() => scrollPage(i)}>
