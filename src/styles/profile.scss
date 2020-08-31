@@ -11,5 +11,16 @@
 
   li {
     margin-left: 40px;
+    margin-top: 5px;
   }
+}
+
+#profilePicture {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+.badge {
+  vertical-align: middle;
 }
