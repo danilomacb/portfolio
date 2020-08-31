@@ -51,6 +51,7 @@ nav {
   opacity: 0.7;
   background: $black1;
   border: 1px solid $green;
+  z-index: 2;
 }
 
 @media (max-width: 1100px) {
