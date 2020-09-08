@@ -2,12 +2,13 @@ import React, { useState } from "react";
 import Lightbox from "react-image-lightbox";
 
 import "../styles/project.scss";
+import badges from "../badges.json";
 
 interface IProject {
   name: string;
   img: string;
   categories: string;
-  technologies: string;
+  technologies: Array<string>;
   date: string;
   description: string;
   link?: string;
@@ -40,7 +41,7 @@ function Project({ project }: { project: IProject }) {
         </p>
         <p>
           <strong>Tecnologias: </strong>
-          {project.technologies}
+          {project.technologies.map((technology) => console.log(badges[technology]))}
         </p>
         <p>
           <strong>Data: </strong>
