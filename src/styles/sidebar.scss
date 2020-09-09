@@ -17,11 +17,15 @@ nav {
 
 #projects {
   padding: 0 10px 10px 10px;
-  li {
+
+  button {
     background-color: $black3;
     margin-top: 10px;
     padding: 5px;
     border-radius: 5px;
+    width: 100%;
+    border: none;
+    outline: none;
 
     &:hover {
       background-color: $black1;

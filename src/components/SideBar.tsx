@@ -42,9 +42,9 @@ function SideBar() {
         <h2>Meus Projetos</h2>
         <ul id="projects">
           {projects.map((project, i) => (
-            <li key={project.name} onClick={() => scrollPage(i)}>
+            <button key={project.name} aria-label={project.name} onClick={() => scrollPage(i)}>
               {project.name}
-            </li>
+            </button>
           ))}
         </ul>
       </nav>
