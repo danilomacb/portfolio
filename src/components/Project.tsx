@@ -36,6 +36,7 @@ function Project({ project }: { project: IProject }) {
       <div className="project">
         <h1>{project.name}</h1>
         <img
+          className="projectImg"
           src={`${process.env.PUBLIC_URL}${project.img}`}
           alt={project.name}
           onClick={() => setExpandImage(true)}
@@ -48,6 +49,7 @@ function Project({ project }: { project: IProject }) {
           <strong>Tecnologias: </strong>
           {project.technologies.map((technology) => (
             <img
+              className="badge"
               key={badges[technology].alt}
               src={badges[technology].link}
               alt={badges[technology].alt}
