@@ -2,7 +2,12 @@ import React, { useState } from "react";
 import Lightbox from "react-image-lightbox";
 
 import "../styles/project.scss";
-import badges from "../badges.json";
+
+const badges: IBadge = require("../badges.json");
+
+interface IBadge {
+  [key: string]: { link: string; alt: string };
+}
 
 interface IProject {
   name: string;
@@ -41,7 +46,13 @@ function Project({ project }: { project: IProject }) {
         </p>
         <p>
           <strong>Tecnologias: </strong>
-          {project.technologies.map((technology) => console.log(badges[technology]))}
+          {project.technologies.map((technology) => (
+            <img
+              key={badges[technology].alt}
+              src={badges[technology].link}
+              alt={badges[technology].alt}
+            />
+          ))}
         </p>
         <p>
           <strong>Data: </strong>
