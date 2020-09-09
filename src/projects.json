@@ -83,5 +83,32 @@
     "description": "Um clone da página de login do Facebook.",
     "link": "https://danilomacb.github.io/caralivro/",
     "repository": "https://github.com/danilomacb/caralivro"
+  },
+  {
+    "name": "Rick Rich Is The Glich Buster",
+    "img": "/images/projects/rickRich.gif",
+    "categories": "Jogo",
+    "technologies": ["unity", "csharp"],
+    "date": "04/10/2018",
+    "description": "Rick Rich Is The Glitch Buster é um jogo de ação de plataforma 2D feito na Weekly Game Jam na semana 64: Feito por um grupo brasileiro chamado: Achenar Studios, onde Timmy, uma pessoa normal que tenta baixar jogos piratas e pega um vírus muito ruim que infecta seu computador, ele liga para Rick, o melhor técnico de informática de sua cidade para consertar seu computador, mas de repente o vírus arrasta Rick para o computador. Agora você precisa controlar o Rick e eliminar todos os vírus do computador!",
+    "link": "https://gamejolt.com/games/avalanche/369388"
+  },
+  {
+    "name": "Avalanche",
+    "img": "/images/projects/avalanche.gif",
+    "categories": "Jogo",
+    "technologies": ["unity", "csharp"],
+    "date": "22/09/2018",
+    "description": "Um jogo de plataforma com obstáculos onde o objetivo e fugir para não ser engolido pela avalanche.",
+    "link": "https://gamejolt.com/games/avalanche/369388"
+  },
+  {
+    "name": "Snowli",
+    "img": "/images/projects/snowli.gif",
+    "categories": "Jogo",
+    "technologies": ["unity", "csharp"],
+    "date": "30/08/2018",
+    "description": "Foi desenvolvido durante a game jam jaaj do canal do youtube Amdré Young. É um game de Aventura e Plataforma 2D ambientado no visual de Pixel Art. Ele possui uma história que é contada através de cutscenes e 8 leveis, possui também um level bônus que apresenta um nível de dificuldade mais elevado.",
+    "link": "https://gamejolt.com/games/snowli/365006"
   }
 ]

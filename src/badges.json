@@ -7,5 +7,7 @@
   "node": { "link": "https://img.shields.io/badge/-Node-90C53F", "alt": "Node" },
   "mongo": { "link": "https://img.shields.io/badge/-MongoDB-449A46", "alt": "Mongo" },
   "linux": { "link": "https://img.shields.io/badge/-Linux-606060", "alt": "Linux" },
-  "ubuntu": { "link": "https://img.shields.io/badge/-Ubuntu-DE4815", "alt": "Ubuntu" }
+  "ubuntu": { "link": "https://img.shields.io/badge/-Ubuntu-DE4815", "alt": "Ubuntu" },
+  "unity": { "link": "https://img.shields.io/badge/-Unity-fff", "alt": "Unity" },
+  "csharp": { "link": "https://img.shields.io/badge/-C%23-67217A", "alt": "C#" }
 }
