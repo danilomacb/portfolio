@@ -42,7 +42,7 @@ function Project({ project }: { project: IProject }) {
           onClick={() => setExpandImage(true)}
         />
         <p>
-          <strong>Categorias: </strong>
+          <strong>Categoria: </strong>
           {project.categories}
         </p>
         <p>
