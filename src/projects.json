@@ -5,7 +5,7 @@
     "categories": "Extensão",
     "technologies": ["css", "js"],
     "date": "16/08/2020",
-    "description": "Uma extensão para o Chrome que esconde as telas e mensagem de login.",
+    "description": "Essa extensão irá permitir que você utilize o instagram livremente sem ser barrado por telas de login.",
     "repository": "https://github.com/danilomacb/insta-anonymous",
     "credits": "Logo feito por Paulo Henrique Lopes."
   },
