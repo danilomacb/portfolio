@@ -11,7 +11,8 @@ interface IBadge {
 
 interface IProject {
   name: string;
-  img: string;
+  img?: string;
+  video?: string;
   categories: string;
   technologies: Array<string>;
   date: string;
@@ -35,12 +36,20 @@ function Project({ project }: { project: IProject }) {
 
       <div className="project">
         <h1>{project.name}</h1>
-        <img
-          className="projectImg"
-          src={`${process.env.PUBLIC_URL}${project.img}`}
-          alt={project.name}
-          onClick={() => setExpandImage(true)}
-        />
+        {project.img ? (
+          <img
+            className="projectImg"
+            src={`${process.env.PUBLIC_URL}${project.img}`}
+            alt={project.name}
+            onClick={() => setExpandImage(true)}
+          />
+        ) : null}
+        {project.video ? (
+          <video controls>
+            <source src={`${process.env.PUBLIC_URL}${project.video}`} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        ) : null}
         <p>
           <strong>Categoria: </strong>
           {project.categories}

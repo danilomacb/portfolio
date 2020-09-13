@@ -1,7 +1,7 @@
 [
   {
     "name": "Insta Anonymous",
-    "img": "/images/projects/instaAnonymous.png",
+    "img": "/projects/images/instaAnonymous.png",
     "categories": "Extensão",
     "technologies": ["css", "js"],
     "date": "16/08/2020",
@@ -11,7 +11,7 @@
   },
   {
     "name": "4noobs Web",
-    "img": "/images/projects/4noobsWeb.gif",
+    "video": "/projects/videos/4noobsWeb.mp4",
     "categories": "Web Front-end",
     "technologies": ["react"],
     "date": "24/06/2020",
@@ -21,7 +21,7 @@
   },
   {
     "name": "Comparando React com HTML",
-    "img": "/images/projects/comparandoReactComHtml.png",
+    "img": "/projects/images/comparandoReactComHtml.png",
     "categories": "Artigo",
     "technologies": ["html", "css", "js", "react"],
     "date": "26/05/2020",
@@ -31,7 +31,7 @@
   },
   {
     "name": "Simple CRUD TypeScript",
-    "img": "/images/projects/simpleCrudTS.gif",
+    "video": "/projects/videos/simpleCrudTS.mp4",
     "categories": "Web Front-end e Back-end",
     "technologies": ["ts", "node", "react", "mongo"],
     "date": "11/05/2020",
@@ -40,7 +40,7 @@
   },
   {
     "name": "Simple CRUD JavaScript",
-    "img": "/images/projects/simpleCrudJS.gif",
+    "video": "/projects/videos/simpleCrudJS.mp4",
     "categories": "Web Front-end e Back-end",
     "technologies": ["js", "node", "react", "mongo"],
     "date": "09/05/2020",
@@ -49,7 +49,7 @@
   },
   {
     "name": "Consumo de Memória RAM em Distros Ubuntu",
-    "img": "/images/projects/ubuntu.png",
+    "img": "/projects/images/ubuntu.png",
     "categories": "Artigo",
     "technologies": ["linux"],
     "date": "27/04/2020",
@@ -58,7 +58,7 @@
   },
   {
     "name": "Memebot",
-    "img": "/images/projects/memebot.gif",
+    "video": "/projects/videos/memebot.mp4",
     "categories": "Bot, Web Front-end e Back-end",
     "technologies": ["js", "node", "mongo", "react"],
     "date": "15/12/2019",
@@ -67,7 +67,7 @@
   },
   {
     "name": "JaVi?!",
-    "img": "/images/projects/javi.gif",
+    "video": "/projects/videos/javi.mp4",
     "categories": "Web Front-end e Back-end",
     "technologies": ["js", "node", "mongo", "react"],
     "date": "22/10/2019",
@@ -76,7 +76,7 @@
   },
   {
     "name": "Caralivro",
-    "img": "/images/projects/caralivro.png",
+    "img": "/projects/images/caralivro.png",
     "categories": "Web Front-end",
     "technologies": ["html", "css", "js"],
     "date": "07/03/2019",
@@ -86,7 +86,7 @@
   },
   {
     "name": "Rick Rich Is The Glich Buster",
-    "img": "/images/projects/rickRich.gif",
+    "video": "/projects/videos/rickRich.mp4",
     "categories": "Jogo",
     "technologies": ["unity", "csharp"],
     "date": "04/10/2018",
@@ -95,7 +95,7 @@
   },
   {
     "name": "Avalanche",
-    "img": "/images/projects/avalanche.gif",
+    "video": "/projects/videos/avalanche.mp4",
     "categories": "Jogo",
     "technologies": ["unity", "csharp"],
     "date": "22/09/2018",
@@ -104,7 +104,7 @@
   },
   {
     "name": "Snowli",
-    "img": "/images/projects/snowli.gif",
+    "video": "/projects/videos/snowli.mp4",
     "categories": "Jogo",
     "technologies": ["unity", "csharp"],
     "date": "30/08/2018",
