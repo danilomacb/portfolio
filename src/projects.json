@@ -1,5 +1,14 @@
 [
   {
+    "name": "Custom Command Bot",
+    "video": "/projects/videos/custom-command-bot.mp4",
+    "categories": "Bot, Web Front-end e Back-end",
+    "technologies": ["js", "node", "mongo", "react"],
+    "date": "18/11/2020",
+    "description": "O sucessor do Memebot, um bot para o discord, com um sistema de login integrado com a conta do Discord, onde a ideia era fazer com que qualquer pessoa pudesse criar comandos sem codar nada. (Projeto não finalizado)",
+    "repository": "https://github.com/danilomacb/custom-command-bot"
+  },
+  {
     "name": "Insta Anonymous",
     "img": "/projects/images/instaAnonymous.png",
     "categories": "Extensão",
