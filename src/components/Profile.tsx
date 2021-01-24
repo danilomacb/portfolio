@@ -1,28 +1,28 @@
 import React from "react";
 
 import "../styles/profile.scss";
-import badges from "../badges.json";
+import "../styles/badges.scss";
 
 function Profile() {
   return (
     <div id="profile">
       <img src={`${process.env.PUBLIC_URL}/images/perfil.png`} alt="Perfil" id="profilePicture" />
       <h1>Danilo Macedo Bakun</h1>
-      <ul id="profileDescription">
+
+      <ul>
         <li>
           Desenvolvedor FullStack
-          <img src={badges.js.link} alt={badges.js.alt} className="badge" />
+          <span className="badge JavaScript">JavaScript</span>
         </li>
         <li>
           Stack
-          <img src={badges.react.link} alt={badges.react.alt} className="badge" />+
-          <img src={badges.node.link} alt={badges.node.alt} className="badge" />
+          <span className="badge React">React</span> + <span className="badge Node">Node</span>
         </li>
         <li>
           Usuário de distros
-          <img src={badges.linux.link} alt={badges.linux.alt} className="badge" />
+          <span className="badge Linux">Linux</span>
           baseadas em
-          <img src={badges.ubuntu.link} alt={badges.ubuntu.alt} className="badge" />
+          <span className="badge Ubuntu">Ubuntu</span>
         </li>
       </ul>
     </div>

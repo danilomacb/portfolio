@@ -4,14 +4,16 @@
   border-bottom: 1px solid $green;
   padding-bottom: 20px;
   margin: 20px;
-}
 
-#profileDescription {
-  text-align: left;
+  ul {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
 
-  li {
-    margin-left: 40px;
-    line-height: 1.5;
+    li {
+      margin-left: 40px;
+      line-height: 1.5;
+    }
   }
 }
 

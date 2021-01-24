@@ -1,0 +1,60 @@
+@import "./colors.scss";
+
+.badges {
+  display: inline-block;
+}
+
+.badge {
+  margin: 0 4px;
+  padding: 2px 8px;
+  border-radius: 5px;
+  font-size: 10pt;
+}
+
+.HTML {
+  background-color: #e44d26;
+}
+
+.CSS {
+  background-color: #264de4;
+}
+
+.JavaScript {
+  background-color: #f7e018;
+  color: $black1;
+}
+
+.TypeScript {
+  background-color: #0385d2;
+}
+
+.React {
+  background-color: #4ad5ff;
+  color: $black1;
+}
+
+.Node {
+  background-color: #82cd2a;
+  color: $black1;
+}
+
+.Mongo {
+  background-color: #599736;
+}
+
+.Linux {
+  background-color: #606060;
+}
+
+.Ubuntu {
+  background-color: #de4815;
+}
+
+.Unity {
+  background-color: $white;
+  color: $black1;
+}
+
+.CSharp {
+  background-color: #953dac;
+}

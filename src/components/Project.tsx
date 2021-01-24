@@ -2,12 +2,7 @@ import React, { useState } from "react";
 import Lightbox from "react-image-lightbox";
 
 import "../styles/project.scss";
-
-const badges: IBadge = require("../badges.json");
-
-interface IBadge {
-  [key: string]: { link: string; alt: string };
-}
+import "../styles/badges.scss";
 
 interface IProject {
   name: string;
@@ -57,12 +52,9 @@ function Project({ project }: { project: IProject }) {
         <p>
           <strong>Tecnologias: </strong>
           {project.technologies.map((technology) => (
-            <img
-              className="badge"
-              key={badges[technology].alt}
-              src={badges[technology].link}
-              alt={badges[technology].alt}
-            />
+            <div className="badges" key={technology}>
+              <span className={`badge ${technology}`}>{technology}</span>
+            </div>
           ))}
         </p>
         <p>
