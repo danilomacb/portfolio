@@ -1,5 +1,24 @@
 [
   {
+    "name": "Simple CRUD",
+    "video": "/projects/videos/simple-crud.mp4",
+    "categories": "Web Front-end e Back-end",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "Node",
+      "GO",
+      "React",
+      "Mongo",
+      "Postgres"
+    ],
+    "date": "22/01/2021",
+    "description": "Simple CRUD (Create, Read, Update, and Delete), é um projeto com sub projetos, criados para experimentar diferentes tecnologias e serem usados como referência. Ele é dividido em duas partes, api e web, onde ambos seguem padrões, todas as apis devem fazer a mesma coisa, assim como as páginas web, mas com ferramentas diferentes. Qualquer api deve funcionar com qualquer página web.",
+    "repository": "https://github.com/danilomacb/simple-crud"
+  },
+  {
     "name": "Custom Command Bot",
     "video": "/projects/videos/custom-command-bot.mp4",
     "categories": "Bot, Web Front-end e Back-end",
@@ -37,24 +56,6 @@
     "description": "Comparando o mesmo projeto em React e HTML, para explicar como funciona a componentização.",
     "link": "https://medium.com/@danilomacb/comparando-react-com-html-7eda91ee408a",
     "repository": "https://github.com/danilomacb/comparando-react-com-html"
-  },
-  {
-    "name": "Simple CRUD TypeScript",
-    "video": "/projects/videos/simpleCrudTS.mp4",
-    "categories": "Web Front-end e Back-end",
-    "technologies": ["TypeScript", "Node", "React", "Mongo"],
-    "date": "11/05/2020",
-    "description": "Simple CRUD (Create, Read, Update, and Delete), é um projeto básico para experimentar diferentes tecnologias e ser usado de referência.",
-    "repository": "https://github.com/danilomacb/simple-crud-ts"
-  },
-  {
-    "name": "Simple CRUD JavaScript",
-    "video": "/projects/videos/simpleCrudJS.mp4",
-    "categories": "Web Front-end e Back-end",
-    "technologies": ["JavaScript", "Node", "React", "Mongo"],
-    "date": "09/05/2020",
-    "description": "Simple CRUD (Create, Read, Update, and Delete), é um projeto básico para experimentar diferentes tecnologias e ser usado de referência.",
-    "repository": "https://github.com/danilomacb/simple-crud-node-react-mongo"
   },
   {
     "name": "Consumo de Memória RAM em Distros Ubuntu",
