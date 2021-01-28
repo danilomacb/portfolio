@@ -15,7 +15,7 @@
       "Postgres"
     ],
     "date": "22/01/2021",
-    "description": "Simple CRUD (Create, Read, Update, and Delete), é um projeto com sub projetos, criados para experimentar diferentes tecnologias e serem usados como referência. Ele é dividido em duas partes, api e web, onde ambos seguem padrões, todas as apis devem fazer a mesma coisa, assim como as páginas web, mas com ferramentas diferentes. Qualquer api deve funcionar com qualquer página web.",
+    "description": "Simple CRUD (Create, Read, Update, and Delete), é um projeto com subprojetos, criados para experimentar diferentes tecnologias e serem usados como referência. Ele é dividido em duas partes, api e web, onde ambos seguem padrões, todas as apis devem fazer a mesma coisa, assim como as páginas web, mas com ferramentas diferentes. Qualquer api deve funcionar com qualquer página web.",
     "repository": "https://github.com/danilomacb/simple-crud"
   },
   {
