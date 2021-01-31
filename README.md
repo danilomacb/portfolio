@@ -26,3 +26,19 @@ After the dependencies installed, inside the project run the following command a
 # /react-portfolio
 npm start
 ```
+
+# Deploy
+
+First, it's necessary to generate the build.
+
+```bash
+# /react-portfolio
+npm run build
+```
+
+After that, just run:
+
+```bash
+# /react-portfolio
+netlify deploy --prod
+```
