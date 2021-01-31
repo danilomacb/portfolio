@@ -1,7 +1,16 @@
 [
   {
+    "name": "Insta Search Bar",
+    "video": "/projects/videos/instaSearchBar.mp4",
+    "categories": "Extensão",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "date": "30/01/2021",
+    "description": "Uma barra de navegação melhorada para o site do instagram",
+    "repository": "https://github.com/danilomacb/insta-search-bar"
+  },
+  {
     "name": "Simple CRUD",
-    "video": "/projects/videos/SimpleCRUD.mp4",
+    "video": "/projects/videos/simpleCRUD.mp4",
     "categories": "Web Front-end e Back-end",
     "technologies": [
       "HTML",
@@ -20,7 +29,7 @@
   },
   {
     "name": "Custom Command Bot",
-    "video": "/projects/videos/CustomCommandBot.mp4",
+    "video": "/projects/videos/customCommandBot.mp4",
     "categories": "Bot, Web Front-end e Back-end",
     "technologies": ["JavaScript", "Node", "Mongo", "React"],
     "date": "18/11/2020",
