@@ -1,7 +1,7 @@
 [
   {
     "name": "Simple CRUD",
-    "video": "/projects/videos/simple-crud.mp4",
+    "video": "/projects/videos/SimpleCRUD.mp4",
     "categories": "Web Front-end e Back-end",
     "technologies": [
       "HTML",
@@ -20,7 +20,7 @@
   },
   {
     "name": "Custom Command Bot",
-    "video": "/projects/videos/custom-command-bot.mp4",
+    "video": "/projects/videos/CustomCommandBot.mp4",
     "categories": "Bot, Web Front-end e Back-end",
     "technologies": ["JavaScript", "Node", "Mongo", "React"],
     "date": "18/11/2020",
