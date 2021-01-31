@@ -9,7 +9,7 @@ My portfolio page, that contains my projects and articles, Hosted on:
 - Language: TypeScript
 - Front-end: React
 
-# Instalation
+# Installation
 
 You just need to install the dependencies, so inside the project run:
 
