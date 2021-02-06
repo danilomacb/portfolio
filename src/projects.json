@@ -6,6 +6,7 @@
     "technologies": ["HTML", "CSS", "JavaScript"],
     "date": "30/01/2021",
     "description": "Uma barra de navegação melhorada para o site do instagram",
+    "link": "https://chrome.google.com/webstore/detail/insta-search-bar/jmcnkbjgbbdncalgbnemahbhpkhnkckl",
     "repository": "https://github.com/danilomacb/insta-search-bar"
   },
   {
