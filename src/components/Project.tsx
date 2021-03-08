@@ -45,46 +45,46 @@ function Project({ project }: { project: IProject }) {
             Your browser does not support the video tag.
           </video>
         ) : null}
-        <p>
+        <div className="info">
           <strong>Categoria: </strong>
           {project.categories}
-        </p>
-        <p>
+        </div>
+        <div className="info">
           <strong>Tecnologias: </strong>
           {project.technologies.map((technology) => (
             <div className="badges" key={technology}>
               <span className={`badge ${technology}`}>{technology}</span>
             </div>
           ))}
-        </p>
-        <p>
+        </div>
+        <div className="info">
           <strong>Data: </strong>
           {project.date}
-        </p>
-        <p>
+        </div>
+        <div className="info">
           <strong>Descrição</strong>: {project.description}
-        </p>
+        </div>
         {project.link ? (
-          <p>
+          <div className="info">
             <strong>Link: </strong>
             <a href={project.link} target="_blank" rel="noopener noreferrer">
               {project.link}
             </a>
-          </p>
+          </div>
         ) : null}
         {project.repository ? (
-          <p>
+          <div className="info">
             <strong>Repositório: </strong>
             <a href={project.repository} target="_blank" rel="noopener noreferrer">
               {project.repository}
             </a>
-          </p>
+          </div>
         ) : null}
         {project.credits ? (
-          <p>
+          <div className="info">
             <strong>Créditos: </strong>
             {project.credits}
-          </p>
+          </div>
         ) : null}
       </div>
     </>
