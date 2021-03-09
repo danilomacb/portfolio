@@ -1,15 +1,5 @@
 [
   {
-    "name": "Insta Search Bar",
-    "video": "/projects/videos/instaSearchBar.mp4",
-    "categories": "Extensão",
-    "technologies": ["HTML", "CSS", "JavaScript"],
-    "date": "30/01/2021",
-    "description": "Uma barra de navegação melhorada para o site do instagram",
-    "link": "https://chrome.google.com/webstore/detail/insta-search-bar/jmcnkbjgbbdncalgbnemahbhpkhnkckl",
-    "repository": "https://github.com/danilomacb/insta-search-bar"
-  },
-  {
     "name": "Simple CRUD",
     "video": "/projects/videos/simpleCRUD.mp4",
     "categories": "Web Front-end e Back-end",
@@ -34,7 +24,7 @@
     "categories": "Bot, Web Front-end e Back-end",
     "technologies": ["JavaScript", "Node", "Mongo", "React"],
     "date": "18/11/2020",
-    "description": "O sucessor do Memebot, um bot para o discord, com um sistema de login integrado com a conta do Discord, onde a ideia era fazer com que qualquer pessoa pudesse criar comandos sem codar nada. (Projeto não finalizado)",
+    "description": "Um bot para o discord, com um sistema de login integrado com a conta do Discord, onde a ideia era fazer com que qualquer pessoa pudesse criar comandos sem codar nada. (Projeto não finalizado)",
     "repository": "https://github.com/danilomacb/custom-command-bot"
   },
   {
@@ -75,15 +65,6 @@
     "date": "27/04/2020",
     "description": "Comparação de consumo de memória RAM em diferentes distros baseadas em Ubuntu.",
     "link": "https://medium.com/@danilomacb/consumo-de-mem%C3%B3ria-ram-em-distros-ubuntu-a124549469b9"
-  },
-  {
-    "name": "Memebot",
-    "video": "/projects/videos/memebot.mp4",
-    "categories": "Bot, Web Front-end e Back-end",
-    "technologies": ["JavaScript", "Node", "Mongo", "React"],
-    "date": "15/12/2019",
-    "description": "É um bot para o Discord que gera uma nova base de dados e um link assim que entra em um servidor novo, acessando o link é possivel criar comandos customizados com texto, imagens e gifs. Dessa forma você pode deixar suas redes sociais salvas em um comando, adicionar mais emotes, adicionar gifs, links com vídeos e etc. E tudo isso de forma gratuita.",
-    "link": "https://memebot-oficial.netlify.app"
   },
   {
     "name": "JaVi?!",
